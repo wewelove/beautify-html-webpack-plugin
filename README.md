@@ -51,7 +51,7 @@ module.exports = {
     indent_inner_html: true,
     preserve_newlines: true,
     inline: ['i', 'b', 'span'],
-    unformatted: ['p']
+    unformatted: []
   },
   css: {
     indent_size: 4
