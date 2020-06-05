@@ -1,0 +1,22 @@
+{
+  "name": "beautify-html-webpack-plugin",
+  "version": "1.0.0",
+  "description": "It's a html-webpack-plugin hook, beautify html.",
+  "author": "wh <wewelove88@gmail.com> (https://github.com/wewelove)",
+  "license": "ISC",
+  "main": "index.js",
+  "keywords": [
+    "html-webpack-plugin",
+    "beautify-html-webpack-plugin",
+    "js-beautify",
+    "pretty",
+    "webpack"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wewelove/beautify-html-webpack-plugin.git"
+  },
+  "dependencies": {
+    "pretty": "^2.0.0"
+  }
+}
