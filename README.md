@@ -38,7 +38,7 @@ module.exports = {
 }
 ```
 
-`options` 结构参考默认设置，详情参考 [js-beautify](https://www.npmjs.com/package/js-beautify)。
+`options` 默认设置如下，详情参考 [js-beautify](https://www.npmjs.com/package/js-beautify)。
 
 ```js
 {
