@@ -64,5 +64,5 @@ module.exports = {
 
 ## 参考
 
-[js-beautify](https://www.npmjs.com/package/)
-[pretty](https://github.com/jonschlinkert/pretty)
+- [js-beautify](https://www.npmjs.com/package/)  
+- [pretty](https://github.com/jonschlinkert/pretty)
