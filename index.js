@@ -1,4 +1,6 @@
 const pretty = require('pretty');
+const lodash = require('lodash');
+
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 class BeautifyHtmlWebpackPlugin {

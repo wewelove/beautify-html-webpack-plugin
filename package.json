@@ -2,7 +2,7 @@
   "name": "beautify-html-webpack-plugin",
   "version": "1.0.0",
   "description": "It's a html-webpack-plugin hook, beautify html.",
-  "author": "wh <wewelove88@gmail.com> (https://github.com/wewelove)",
+  "author": "hao <wewelove88@gmail.com> (https://github.com/wewelove)",
   "license": "ISC",
   "main": "index.js",
   "keywords": [
@@ -17,6 +17,7 @@
     "url": "https://github.com/wewelove/beautify-html-webpack-plugin.git"
   },
   "dependencies": {
+    "lodash": "^4.17.0",
     "pretty": "^2.0.0"
   }
 }
