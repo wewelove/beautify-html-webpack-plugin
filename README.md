@@ -1,6 +1,6 @@
 # beautify-html-webpack-plugin
 
-`beautify-html-webpack-plugin` 是 [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) 插件的 `beforeEmit` 钩子插件，实现 html 格式化输出，适用 [Webpack4](https://webpack.js.org/)。
+`beautify-html-webpack-plugin` 是 [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) 插件的钩子，实现 `HTML` 格式化输出，适用 [Webpack4](https://webpack.js.org/)。
 
 ## 安装
 
