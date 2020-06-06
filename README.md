@@ -1,6 +1,6 @@
 # beautify-html-webpack-plugin
 
-[html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) 插件的 `beforeEmit` 钩子，美化 html 输出。
+`beautify-html-webpack-plugin` 是 [html-webpack-plugin](https://github.com/jantimon/html-webpack-plugin) 插件的 `beforeEmit` 钩子插件，实现 html 格式化输出，适用 [Webpack4](https://webpack.js.org/)。
 
 ## 安装
 
@@ -42,27 +42,35 @@ module.exports = {
 
 ```js
 {
-  indent_size: 2,
-  indent_with_tabs: false,
-  html: {
-    end_with_newline: true,
-    indent_size: 2,
-    indent_with_tabs: false,
-    indent_inner_html: true,
-    preserve_newlines: true,
-    inline: ['i', 'b', 'span'],
-    unformatted: []
-  },
-  css: {
-    indent_size: 4
-  },
-  js: {
-    indent_size: 4
-  }
+  "indent_size": 2,
+  "indent_char": " ",
+  "indent_with_tabs": false,
+  "editorconfig": false,
+  "eol": "\n",
+  "end_with_newline": false,
+  "indent_level": 0,
+  "preserve_newlines": true,
+  "max_preserve_newlines": 2,
+  "space_in_paren": false,
+  "space_in_empty_paren": false,
+  "jslint_happy": false,
+  "space_after_anon_function": false,
+  "space_after_named_function": false,
+  "brace_style": "collapse",
+  "unindent_chained_methods": false,
+  "break_chained_methods": false,
+  "keep_array_indentation": false,
+  "unescape_strings": false,
+  "wrap_line_length": 0,
+  "e4x": false,
+  "comma_first": false,
+  "operator_position": "before-newline",
+  "indent_empty_lines": false,
+  "templating": ["auto"]
 }
 ```
 
 ## 参考
 
-- [js-beautify](https://www.npmjs.com/package/)  
+- [js-beautify](https://www.npmjs.com/package/js-beautify)  
 - [pretty](https://github.com/jonschlinkert/pretty)

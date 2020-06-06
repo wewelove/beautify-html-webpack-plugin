@@ -1,7 +1,7 @@
 {
   "name": "beautify-html-webpack-plugin",
   "version": "1.0.2",
-  "description": "It's a html-webpack-plugin hook, beautify html.",
+  "description": "The hook of html-webpack-plugin, beautifies HTML output, for Webpack4.",
   "author": "hao <wewelove88@gmail.com> (https://github.com/wewelove)",
   "license": "ISC",
   "main": "index.js",
